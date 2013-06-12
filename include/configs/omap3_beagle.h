@@ -110,6 +110,9 @@
 #define CONFIG_CMD_LED		/* LED support			*/
 #define CONFIG_CMD_DHCP
 
+#define CONFIG_CMD_UNZIP
+#define CONFIG_CMD_CACHE
+
 #define CONFIG_VIDEO_OMAP3	/* DSS Support			*/
 
 /*
