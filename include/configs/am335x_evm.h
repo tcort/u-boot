@@ -36,6 +36,9 @@
 #define V_OSCK				24000000  /* Clock output from T2 */
 #define V_SCLK				(V_OSCK)
 
+#define CONFIG_CMD_UNZIP
+#define CONFIG_CMD_CACHE
+
 /* Custom script for NOR */
 #define CONFIG_SYS_LDSCRIPT		"board/ti/am335x/u-boot.lds"
 
