@@ -137,6 +137,7 @@
 	"ramdisk=ramdisk.gz\0" \
 	"bootdir=/boot\0" \
 	"bootpart=0:2\0" \
+	"board_name=BBXM\0" \
 	"console=ttyO2,115200n8\0" \
 	"mpurate=auto\0" \
 	"buddy=none\0" \
